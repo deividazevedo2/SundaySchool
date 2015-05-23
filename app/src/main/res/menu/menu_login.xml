@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="sundayschool.deividazevedo.br.sundayschool.LoginActivity">
+
+    <item android:id="@+id/menu_sobre"
+        android:title="@string/sobre"
+        android:icon="@drawable/ic_sobre"
+        app:showAsAction="always" />
+
+</menu>

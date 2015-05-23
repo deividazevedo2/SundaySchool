@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="sundayschool.deividazevedo.br.sundayschool.RelatorioDominicalActivity">
+
+
+    <item android:id="@+id/menu_ver_relatorios"
+        android:title="@string/ver_relatorios"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+</menu>

@@ -1,0 +1,106 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/cor_background"
+    tools:context="sundayschool.deividazevedo.br.sundayschool.ListarSalasActivity">
+
+    <RelativeLayout
+        android:id="@+id/cabecalho_relatorio"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:id="@+id/tv_lv_data_relatorio"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/data_relatorio"
+            android:gravity="center"/>
+
+        <View
+            android:id="@+id/view5"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/tv_lv_data_relatorio"
+            android:background="@color/cor_letra_preta"/>
+
+        <TextView
+            android:id="@+id/tv_presentes"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/cor_letra_preta"
+            android:layout_below="@id/view5"
+            android:text="@string/resumo_geral_relatorio"/>
+
+        <View
+            android:id="@+id/view6"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/tv_presentes"
+            android:background="@color/cor_letra_preta"/>
+
+
+        <TextView
+            android:id="@+id/tv_lv_total_presentes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/total_alunos"
+            android:layout_below="@id/view6"
+            android:textColor="@color/cor_letra_preta"
+            android:layout_marginTop="5dp"/>
+
+        <TextView
+            android:id="@+id/tv_total_alunos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="20"
+            android:layout_below="@id/view6"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@+id/tv_lv_total_presentes"
+            android:layout_toEndOf="@+id/tv_lv_total_presentes"
+            android:textColor="@color/cor_letra_preta"
+            android:layout_marginLeft="5dp"/>
+
+        <TextView
+            android:id="@+id/tv_lv_total_biblias"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/total_biblias"
+            android:layout_below="@id/tv_lv_total_presentes"
+            android:textColor="@color/cor_letra_preta"
+            android:layout_marginTop="5dp"/>
+
+        <TextView
+            android:id="@+id/tv_total_biblias"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/cor_letra_preta"
+            android:layout_alignTop="@+id/tv_lv_total_biblias"
+            android:layout_toRightOf="@+id/tv_lv_total_biblias"
+            android:layout_toEndOf="@+id/tv_lv_total_biblias" />
+
+        <Button
+            android:id="@+id/bt_detalhes_relatorio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bt_estado"
+            android:text="@string/detalhes_classe"
+            android:textColor="@color/cor_letra_preta"
+            android:textSize="12sp"
+            android:textAllCaps="true"
+            android:layout_below="@+id/tv_total_alunos"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+    </RelativeLayout>
+
+</ScrollView>

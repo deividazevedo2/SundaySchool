@@ -1,0 +1,27 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    tools:context="sundayschool.deividazevedo.br.sundayschool.ListarSalasActivity">
+
+    <TextView
+        android:id="@+id/tv_lv_nome_sala"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Nome da Sala"
+        android:padding="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:gravity="center"
+        android:textAllCaps="true"
+        android:textColor="@color/cor_letra_preta"/>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_below="@id/tv_lv_nome_sala"
+        android:layout_height="1dp"
+        android:layout_marginTop="2dp"
+        android:background="@color/cor_letra_preta"/>
+
+</RelativeLayout>

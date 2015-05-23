@@ -1,0 +1,84 @@
+<resources>
+    <string name="app_name" translatable="false">Sunday School</string>
+
+    <string name="hello_world" translatable="false">Hello world!</string>
+    <string name="action_settings" translatable="false">Settings</string>
+
+    <string name="cadastrar_sala">Cadastrar Sala</string>
+    <string name="relatorio_dominical">Relatório Dominical</string>
+    <string name="sair">Sair</string>
+
+    <string name="classe">Classe:</string>
+    <string name="professor">Professor(a):</string>
+    <string name="ver_classes">Classes Cadastradas</string>
+
+    <string name="fazer_relatorio">Novo Relatório</string>
+    <string name="selecione_sala">Selecione a Classe</string>
+    <string name="ver_relatorios">Visualizar Relatórios</string>
+    <string name="sobre">Sobre</string>
+    <string name="avaliar">Avalie!</string>
+
+    <string name="adicionar">Adicionar</string>
+    <string name="finalizar_relatorio">Finalizar</string>
+    <string name="salvar">Salvar</string>
+    <string name="excluir_conta">Excluir Conta</string>
+    <string name="excluir">Excluir</string>
+    <string name="alterar_conta">Alterar Dados</string>
+    <string name="alterar">Alterar</string>
+    <string name="personalizar">Personalizar</string>
+
+    <string name="data">Selecione a Data</string>
+    <string name="data_relatorio">Data</string>
+    <string name="resumo_geral_relatorio">Resumo Geral do Relatório</string>
+    <string name="detalhes_relatorio">Mais Detalhes</string>
+    <string name="detalhes_classe">Detalhes</string>
+    <string name="nome_classe">Classe</string>
+    <string name="presentes">Presentes</string>
+    <string name="visitantes">Visitantes</string>
+    <string name="total" translatable="false">Total</string>
+    <string name="total_alunos">Total de Alunos:</string>
+    <string name="total_biblias">Total de Bíblias:</string>
+    <string name="biblias">Bíblias</string>
+    <string name="voltar">Voltar</string>
+    <string name="cadastrar_login">Login/Nome de Usuário:</string>
+    <string name="cadastrar_senha">Senha:</string>
+    <string name="sua_senha">Sua senha deve conter de 8 a 15 dígitos, entre letras, números e/ou símbolos.</string>
+
+    <string name="sobre_texto">Toda Escola Bíblica Dominical (EBD) deve ser organizada, estruturada,
+        entre diversas outras coisas. Além disso, Uma das funções básicas que uma EBD deve ter é
+        coletar as informações necessárias para que gerar o relatório geral
+        referente àquele dia de aula.
+        Sunday School foi desenvolvido com o intuito de facilitar a criação e armazenamento destas
+        informações, analisadas e coletadas pelo secretário responsável.
+        A facilidade de uso do aplicativo faz com que qualquer pessoa seja capaz de utilizá-lo!
+        Você, secretário de Escola Bíblica Dominical, poderá sentir o impacto de uso do Sunday
+        School, melhorando a sua forma de armazenamento destes dados.</string>
+
+    <string name="como_utilizar">Como Utilizar</string>
+
+    <string name="como_utilizar_texto">A utilização do Sunday School para criação do relatório da EBD
+        é simples e fácil. Inicialmente você precisa realizar o cadastro de ao menos uma sala (classe)
+        de aula. Caso contrário, a opção de criar um relatório não estará disponível.
+        Ao realizar o cadastro das classes da EBD, você poderá gerar o relatório do dia, onde a data
+        atual é automaticamente informada. Uma vez criado o relatório do dia, não é possível alterá-lo.
+        Você será redirecionado para a tela de novo relatório, onde será selecionada a sala, e
+        informados os dados de quantidade de alunos presentes, visitantes e bíblias de cada classe.
+        Adicione o registro e estas informações farão parte do relatório do dia.
+        Não se preocupe em realizar o cálculo manual para o fim do relatório, o Sunday School faz isso
+        para você! Ao clicar no botão finalizar você será levado à listagem dos relatórios realizados
+        onde consta o cálculo do total de alunos e bíblias de toda a EBD, podendo também ser visto em
+        detalhes.</string>
+
+    <string name="desenvolvido_por">Desenvolvido por: Deivid Azevedo. Estudante do 6º período do curso
+        de Análise e Desenvolvimento de Sistemas, do Instituto Federal de Educação, Ciência e
+        Tecnologia da Paraíba - IFPB, campus Monteiro.</string>
+
+    <string name="title_activity_cadastra_sala">Cadastrar Sala de Aula</string>
+    <string name="title_activity_relatorio_dominical">Relatório Dominical</string>
+    <string name="title_activity_listar_relatorios">Listar Relatórios</string>
+    <string name="title_activity_listar_salas">Salas Cadastradas</string>
+    <string name="title_activity_cadastra_relatorio">Novo Relatório</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_sobre">Sobre</string>
+    <string name="title_activity_cadastra_usuario">Cadastrar Usuário</string>
+</resources>

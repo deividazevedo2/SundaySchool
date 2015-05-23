@@ -1,0 +1,85 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/sobre"
+            android:id="@+id/tv_sobre"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/sobre_texto"
+            android:id="@+id/sobre_texto"
+            android:layout_marginTop="30dp"
+            android:layout_below="@id/tv_sobre"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/como_utilizar"
+            android:id="@+id/tv_como_utilizar"
+            android:textStyle="bold"
+            android:layout_below="@id/sobre_texto"
+            android:layout_marginTop="20dp"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/como_utilizar_texto"
+            android:id="@+id/tv_como_utilizar_texto"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center_vertical|right"
+            android:gravity="right"
+            android:layout_below="@id/tv_como_utilizar" />
+
+        <View
+            android:id="@+id/view7"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/tv_como_utilizar_texto"
+            android:background="@color/cor_letra_preta"/>
+
+        <TextView
+            android:id="@+id/tv_desenvolvedor"
+            android:layout_width="wrap_content"
+            android:text="@string/desenvolvido_por"
+            android:layout_below="@id/view7"
+            android:layout_marginTop="3dp"
+            android:textStyle="italic"
+            android:textSize="10dp"
+            android:layout_height="wrap_content" />
+
+
+        <Button
+            android:id="@+id/bt_voltar_sobre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/voltar"
+            android:layout_below="@id/tv_desenvolvedor"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/bt_estado"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"/>
+
+    </RelativeLayout>
+
+</ScrollView>

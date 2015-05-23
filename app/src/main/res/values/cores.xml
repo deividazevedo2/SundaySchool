@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="cor_background_spinner">#5CACEE</color>
+    <color name="cor_letra_branca">#FFFFFF</color>
+    <color name="cor_letra_preta">#000000</color>
+    <color name="cor_letra_cinza">#ffadadad</color>
+    <color name="cor_background_menu">#C5E0DC</color>
+    <color name="cor_background">#ff73cdef</color>
+
+</resources>

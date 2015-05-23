@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="sundayschool.deividazevedo.br.sundayschool.CadastraSalaActivity">
+
+
+    <item android:id="@+id/menu_ver_salas"
+        android:title="@string/ver_classes"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/menu_salvar_sala"
+        android:title="@string/salvar"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_salvar"/>
+
+</menu>

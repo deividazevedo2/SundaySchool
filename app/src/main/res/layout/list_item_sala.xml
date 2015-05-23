@@ -1,0 +1,75 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/cor_background"
+    tools:context="sundayschool.deividazevedo.br.sundayschool.ListarSalasActivity"
+    android:fillViewport="true">
+
+    <RelativeLayout
+        android:id="@+id/rl_list_salas"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/cor_background"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/tv_classe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/classe"
+            android:textColor="@color/cor_letra_preta"
+            android:layout_marginRight="5dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:id="@+id/tv_lv_nome_sala"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Nome da Sala"
+            android:textColor="@color/cor_letra_preta"
+            android:textStyle="bold"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/tv_classe"
+            android:layout_toEndOf="@+id/tv_classe" />
+
+        <TextView
+            android:id="@+id/tv_prof_nome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/professor"
+            android:textColor="@color/cor_letra_preta"
+            android:layout_marginRight="5dp"
+            android:layout_below="@id/tv_classe"/>
+
+
+        <TextView
+            android:id="@+id/tv_lv_nome_professor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nome do Professor"
+            android:textStyle="italic"
+            android:textColor="@color/cor_letra_preta"
+            android:layout_below="@+id/tv_lv_nome_sala"
+            android:layout_toRightOf="@id/tv_prof_nome" />
+
+        <Button
+            android:id="@+id/bt_detalhes_classe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bt_estado"
+            android:text="@string/detalhes_classe"
+            android:textColor="@color/cor_letra_preta"
+            android:textSize="12sp"
+            android:textAllCaps="true"
+            android:layout_alignTop="@+id/tv_lv_nome_professor"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+    </RelativeLayout>
+
+</ScrollView>

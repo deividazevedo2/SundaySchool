@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+
+    <item android:id="@+id/menu_sobre"
+        android:title="@string/sobre"
+        android:icon="@drawable/ic_sobre"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/menu_personalizar"
+        android:title="@string/personalizar"
+        android:icon="@drawable/ic_configurar"
+        app:showAsAction="never" />
+
+</menu>
